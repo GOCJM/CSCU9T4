@@ -18,7 +18,7 @@
                                         <xsl:value-of select="name"/>
                                     </td>
                                     <xsl:choose>
-                                        <xsl:when test="price >= 10">
+                                        <xsl:when test="price &gt;= 10">
                                             <td bgcolor="red">
                                                 <xsl:value-of select="price"/>
                                             </td>
